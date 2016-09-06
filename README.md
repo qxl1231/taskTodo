@@ -12,3 +12,7 @@ POST /api/good: post by json in body a new Good to create it
 PUT /api/good: put by json in body an existing Good to update it
 DELETE /api/good/{id}: delete a Good by it's id
 GET /api/good/{id}: get a good by it's id
+
+# 启动步骤:先mongod 启动数据库
+- npm install
+- node .
