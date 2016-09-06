@@ -1,0 +1,27 @@
+{
+  "name": "Good",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "id":true,
+      "length": 50
+    },
+    "age": {
+      "type": "number",
+      "min":0
+    },
+    "productionDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
