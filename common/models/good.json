@@ -5,6 +5,9 @@
   "options": {
     "validateUpsert": true
   },
+  "http": {
+    "path": "good"
+  },
   "properties": {
     "name": {
       "type": "string",
